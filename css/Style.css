@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+body{
+     /*background-color: blueviolet;*/
+     background-image: url(../image/13.png);
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: 100% 100%;
+    
+
+}
+img{
+    border-radius: 50%;
+    border-image: 10px;
+    width: 70px;
+    height: 60px;
+    
+
+
+}
+.logo{
+    
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    border-image: 10px;
+    mask-image: none;
+    
+
+}
+
+.container{
+    background-color: #7f6df3;
+    text-align: center;
+    width: 30%;
+    margin: 10%; auto;
+    padding: 0px;
+    border-radius: 10px;
+    box-shadow:5px 10px 2px tomato
+
+}
+
+
+h1{  padding-top: 50px;
+    font-size: 40px;
+    font-family: monospace;
+    color: #fff;
+    
+}
+form{
+    text-align: left;
+    margin-top: 10px;
+    padding: 10px;
+    
+}
+form input:focus{
+    background-color: #b0adc5;
+
+}
+
+input,label{
+    display: block;
+    width: 80%;
+    margin: auto;
+    padding:0px;
+}
+input{
+    background-color: #7f6df3;
+}
+label{
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: 2px;
+}
+p{
+    font-size: 20px;
+    margin: 50px; 1px;
+    text-align: center;
+    
+}
+#btn{
+    margin-top: 20px;
+    width: 40%;
+    height: 40%;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #ffff;
+}
+#btn:hover{
+    background-color: blue;
+    text-align: center;
+}
+.reset{
+    color: #fff;
+
+}
